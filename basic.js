@@ -63,11 +63,11 @@ console.log(typeof array)
 
 //Escribe tu código aquí
 
-let x = 2
-let y = 3
-let resultado = x + y
+let x = 3
+let y = 2
+let resultadosuma = x + y
 
-console.log(resultado)
+console.log(resultadosuma)
 
 //Ejercicio 7: Crea una varible que reste 2 números e imprime el resultado en consola.
 
@@ -80,8 +80,9 @@ console.log(resultado)
 
 //Escribe tu código aquí
 
+let resultadoresta = x - y
 
-
+console.log(resultadoresta)
 
 //Ejercicio 9: Crea una varible que divida 2 números e imprime el resultado en consola.
 
