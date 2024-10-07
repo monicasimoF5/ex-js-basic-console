@@ -102,7 +102,7 @@ console.log(resultadodiv)
 
 let primera = 1
 let segunda = 2
-let compara = primera<segunda
+let compara = primera>segunda
 
 console.log(compara)
 
@@ -110,8 +110,11 @@ console.log(compara)
 
 //Escribe tu código aquí
 
+let primera = 1
+let segunda = 2
+let compara = primera<segunda
 
-
+console.log(compara)
 
 //Ejercicio 11: completa el ejercicio
 
