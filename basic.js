@@ -63,8 +63,11 @@ console.log(typeof array)
 
 //Escribe tu código aquí
 
+let x = 2
+let y = 3
+let resultado = x + y
 
-
+console.log(resultado)
 
 //Ejercicio 7: Crea una varible que reste 2 números e imprime el resultado en consola.
 
