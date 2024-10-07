@@ -73,16 +73,18 @@ console.log(resultadosuma)
 
 //Escribe tu código aquí
 
+let resultadoresta = x - y
 
+console.log(resultadoresta)
 
 
 //Ejercicio 8: Crea una varible que multiplique 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
 
-let resultadoresta = x - y
+let resultadomulti = x * y
 
-console.log(resultadoresta)
+console.log(resultadomulti)
 
 //Ejercicio 9: Crea una varible que divida 2 números e imprime el resultado en consola.
 
