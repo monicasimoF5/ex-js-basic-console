@@ -90,7 +90,9 @@ console.log(resultadomulti)
 
 //Escribe tu código aquí
 
+let resultadodiv = x / y
 
+console.log(resultadodiv)
 
 
 //OPERADORES DE COMPARACIÓN
