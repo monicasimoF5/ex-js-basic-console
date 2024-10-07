@@ -50,7 +50,13 @@ console.log("Soy " + coder.nombre + " y tengo " + coder.edad + " años")
 
 //Escribe tu código aquí
 
-
+console.log(typeof string)
+console.log(typeof number)
+console.log(typeof autorizado)
+console.log(typeof noautorizado)
+console.log(typeof autorizacionindefinida)
+console.log(typeof objeto)
+console.log(typeof array)
 
 //OPERADORES ARITMÉTICOS
 //Ejercicio 6: Crea una varible que sume 2 números e imprime el resultado en consola.
