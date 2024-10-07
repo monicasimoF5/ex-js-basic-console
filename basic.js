@@ -110,21 +110,19 @@ console.log(compara)
 
 //Escribe tu código aquí
 
-let primera = 1
-let segunda = 2
-let compara = primera<segunda
+let compara2 = primera<segunda
 
-console.log(compara)
+console.log(compara2)
 
 //Ejercicio 11: completa el ejercicio
 
 let num1 = 15
 let num2 = 20
 
-let comparision = //Realiza la operación de comparación que consideres para que el resultado en consola sea true
+let comparision = num1<num2 //Realiza la operación de comparación que consideres para que el resultado en consola sea true
 console.log(comparision)
 
-//Ejercicio 12: completa el ejercicio
+//Ejercicio 12: completa el ejercicio 
 
 let num3 = 1
 let num3AsString = "1"
