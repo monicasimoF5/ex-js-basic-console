@@ -100,8 +100,11 @@ console.log(resultadodiv)
 
 //Escribe tu código aquí
 
+let primera = 1
+let segunda = 2
+let compara = primera<segunda
 
-
+console.log(compara)
 
 // Ejercicio 10: Crea otra variable que compare las dos primeras variables creadas en el ejercicio anterior, para que el resultado impreso en la consola sea true.
 
