@@ -1,6 +1,6 @@
 //Bienvenida a Javascript básico, para comentar una linea de código puedes usar las dos barras // y para comentar un bloque de varias líneas puedes usar barra y asterisco para abrir /*  asterisco y barra para cerrar */
 
-//En el archivo index.html que tienes abierto en el navegador (preferiblemente chrome o firefox) vamos a trabajar con la consola, abre tu inspector y en la pestaña de consola, mira si puedes ver el mensaje escrito abajo.
+//En el archivo number.html que tienes abierto en el navegador (preferiblemente chrome o firefox) vamos a trabajar con la consola, abre tu inspector y en la pestaña de consola, mira si puedes ver el mensaje escrito abajo.
 
 console.log("Hola soy tu consola y juntas vamos a aprender Javascript");
 
@@ -221,11 +221,11 @@ clearUser(4);
 function updateEmail(id, email) {
   const upList = [];
   for (let user of userList) {
-    if ((user.id != id)) {
-        upList.push(user);
+    if (user.id != id) {
+      upList.push(user);
     } else {
-        user.email = email;
-        upList.push(user);
+      user.email = email;
+      upList.push(user);
     }
   }
   userList = upList;
@@ -233,3 +233,56 @@ function updateEmail(id, email) {
 }
 
 updateEmail(2, "juan.ignacio@gmail.com");
+
+// Ejercicio 17  Números impares: Crear un programa que muestre en consola los números impares entre el 0 y el 20.
+
+for (let num = 0; num < 20; num= num+2) {
+  console.log(num);
+}
+
+// Ejercicio 18: Crear un programa que al ingresar el nombre de una nueva canción añada esta a la lista y muestra la lista en consola. 
+
+let playList = [
+  { id: 1, son: "The final count down" },
+  { id: 2, son: "Yesterday" },
+  { id: 3, son: "November rain" },
+];
+
+function printList (id, son) {
+  const newPlayList = {
+    id: id,
+    son: son,
+  };
+  playList.push(newPlayList);
+  console.log(playList);
+  }
+
+printList(4, "It's raining men");
+
+// Ejercicio 19 Bucle For...of: Crea un array de nombres y utiliza un bucle for...of para imprimir cada nombre en la consola.
+
+let nameList = ["Mònica","Vicente","Alejandro", "Amparo", "Pilar", "Daniela", "Belén", "Verónica","Maria"]
+
+for (const element of nameList) {
+  console.log(element);  
+}
+
+// Ejercicio 20 Funciones: Crea una función llamada saludar que acepte un nombre como parámetro y retorne un mensaje de saludo.
+
+function saludar(nombre){
+  console.log("Hola " + nombre)
+}
+
+saludar("Mònica");
+
+// Ejercicio 21 Parámetros y Argumentos: Crea una función llamada calcularAreaRectangulo que acepte dos parámetros: base y altura. 
+// La función debe calcular y retornar el área del rectángulo.
+
+function calcularAreaRectangulo (base,altura){
+  areaRectangulo = base * altura;
+  console.log("El área de un rectángulo de base " + base + " y altura " + altura + " es igual a " + areaRectangulo + ".");
+}
+
+calcularAreaRectangulo(4, 2);
+
+
